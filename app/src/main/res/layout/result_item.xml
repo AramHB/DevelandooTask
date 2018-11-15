@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/result_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:baselineAligned="false">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <com.example.develandootask.app.view.CircleImageView
+                android:id="@+id/result_avatar"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ProgressBar
+                android:id="@+id/result_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/result_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lines="1"
+                android:paddingStart="8dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/item_name_text_size"
+                tools:ignore="RtlSymmetry" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/result_state_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lines="1"
+                android:paddingStart="8dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/item_text_size"
+                tools:ignore="RtlSymmetry" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/result_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lines="1"
+                android:paddingStart="8dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/item_text_size"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

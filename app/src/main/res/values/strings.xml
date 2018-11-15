@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">DevelandooTask</string>
+    <string name="page">Page</string>
+    <string name="results">Results</string>
+    <string name="seed">Seed</string>
+    <string name="default_page">1</string>
+    <string name="default_results">10</string>
+    <string name="default_seed">abc</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="unavailable_data">Data is Unavailable. \n Please try with another credentials.</string>
+
+    <string name="user_gender">Gender: %s</string>
+    <string name="user_email">Email: %s</string>
+    <string name="user_phone">Phone: %s</string>
+    <string name="user_cell">Cell: %s</string>
+    <string name="user_nat">Nat: %s</string>
+
+    <string name="loc_street">Street: %s</string>
+    <string name="loc_city">City: %s</string>
+    <string name="loc_state">State: %s</string>
+    <string name="loc_post">Postcode: %d</string>
+
+    <string name="coord_lat">Latitude: %s</string>
+    <string name="coord_long">Longitude: %s</string>
+
+    <string name="zone_off">Offset: %s</string>
+    <string name="zone_desc">Description: %s</string>
+
+    <string name="log_uuid">UUID: %s</string>
+    <string name="log_user">Username: %s</string>
+    <string name="log_pass">Password: %s</string>
+    <string name="log_salt">Salt: %s</string>
+    <string name="log_md5">MD5: %s</string>
+    <string name="log_sha1">SHA1: %s</string>
+    <string name="log_sha256">SHA256: %s</string>
+
+    <string name="dob_date">Date: %s</string>
+    <string name="dob_age">Age: %d</string>
+
+    <string name="reg_date">Date: %s</string>
+    <string name="reg_age">Age: %d</string>
+
+    <string name="id_name">Name: %s</string>
+    <string name="id_value">Value: %s</string>
+    <string name="title_id">ID</string>
+    <string name="title_registered">Registered</string>
+    <string name="title_dob">Dob</string>
+    <string name="title_login">Login</string>
+    <string name="title_location">Location</string>
+    <string name="title_user_info">User Info</string>
+    <string name="title_coordinates">Coordinates</string>
+    <string name="title_zone">Timezone</string>
+
+</resources>
